@@ -1,0 +1,47 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cookie-advisor {
+
+    background-color: rgb(0, 0, 0);
+    padding: 2%;
+    color: white;
+}
+
+button {
+
+    padding: 2%;
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    font-size: 1rem;
+    margin: 2%;
+}
+
+.scale-in-center {
+    animation: scale-in-center .5s cubic-bezier(.25, .46, .45, .94) both
+}
+
+@keyframes scale-in-center {
+    0% {
+        transform: scale(0);
+        opacity: 1
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1
+    }
+}
